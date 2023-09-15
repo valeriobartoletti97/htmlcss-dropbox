@@ -34,7 +34,7 @@
 a{
     text-decoration: none;
     color: #000000;
-
+    padding: 5px 10px
 }
 .debug{
     border: 1px solid red
@@ -42,7 +42,6 @@ a{
 
 body{
     background-color: orange;
-    height: 100vh;
 }
 
 .button{
@@ -50,15 +49,45 @@ body{
     color: var(--color-bg-main);
 }
 
+.container{
+    max-width: 1200px;
+    padding-top: 130px;
+    margin: 0 auto;
+}
+
 /* header */
+
+header{
+    width: 100%;
+}
 
 nav{
     background-color: var(--color-bg-main);
     height: 50px;
-    position:fixed;
+    position: fixed;
     width: 100%;
     z-index: 1000;
+    padding: 15px;
 }
 #hero{
     background-color: var(--color-bg-hero);
+}
+
+.logo{
+    width: 50px;
+}
+
+img{
+  overflow: hidden;
+}
+
+h1{
+    font-size: 5.3em;
+}
+
+
+/* list */
+
+ul{
+    list-style: none;
 }
