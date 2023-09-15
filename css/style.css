@@ -69,13 +69,15 @@ body{
 .p-absolute{
     position: absolute;
 }
-
 /* header */
 
 header{
     width: 100%;
 }
 
+.align-middle{
+    vertical-align: middle;
+}
 nav{
     background-color: var(--color-bg-main);
     height: 50px;
