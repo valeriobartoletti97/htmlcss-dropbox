@@ -32,7 +32,9 @@ html{
 .mb-30{
     margin-bottom: 30px;
 }
-
+.mt-30{
+    margin-top: 30px;
+}
 .mb-50{
     margin-bottom: 50px;
 }
@@ -89,6 +91,72 @@ a{
 }
 .debug{
     border: 1px solid red
+}
+
+/* header */
+
+header{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.align-middle{
+    vertical-align: middle;
+}
+nav{
+    background-color: var(--color-bg-main);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 15px;
+    box-shadow: 1px 1px 1px rgba(134, 132, 132, 0.5);
+}
+#hero{
+    background-color: var(--color-bg-hero);
+}
+
+.logo{
+    width: 50px;
+    display: inline;
+}
+
+
+h1{
+    font-size: 5.3em;
+    margin-bottom: 60px;
+}
+
+span{
+    padding: 20px 0;
+}
+header span{
+    display: block
+}
+.hero-left{
+    width: 35%;
+}
+
+.hero-right{
+    width: 65%;
+    
+}
+
+.hero-right > img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fa-arrow-down{
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+img.p-absolute{
+    bottom: -50px
+}
+#year-plan{
+    margin-left: 40px
 }
 
 /* body */
@@ -164,73 +232,12 @@ main .long-btn{
     margin-top: 50px;
     padding-top: 5px;
 }
-/* header */
-
-header{
-    width: 100%;
-    margin-bottom: 50px;
+.plans-body.left{
+    width: 70%;
 }
-
-.align-middle{
-    vertical-align: middle;
+.plans-body.right{
+    width: 30%;
 }
-nav{
-    background-color: var(--color-bg-main);
-    height: 50px;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    padding: 15px;
-    box-shadow: 1px 1px 1px rgba(134, 132, 132, 0.5);
-}
-#hero{
-    background-color: var(--color-bg-hero);
-}
-
-.logo{
-    width: 50px;
-    display: inline;
-}
-
-
-h1{
-    font-size: 5.3em;
-    margin-bottom: 60px;
-}
-
-span{
-    padding: 20px 0;
-}
-header span{
-    display: block
-}
-.hero-left{
-    width: 35%;
-}
-
-.hero-right{
-    width: 65%;
-    
-}
-
-.hero-right > img{
-    width:100%;
-    height: 100%;
-    object-fit: contain;
-}
-.fa-arrow-down{
-    padding-top: 40px;
-    font-size: 50px;
-}
-
-img.p-absolute{
-    bottom: -50px
-}
-#year-plan{
-    margin-left: 40px
-}
-
-/* main */
 h2{
     font-size: 2.8em;
 }
