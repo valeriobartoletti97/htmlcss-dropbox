@@ -32,13 +32,44 @@ html{
 .mb-30{
     margin-bottom: 30px;
 }
+
+.mb-50{
+    margin-bottom: 50px;
+}
+.button{
+    background-color: var(--color-bg-buttom);
+    color: var(--color-bg-main);
+    padding: 5px 12px;
+}
+
+.container{
+    max-width: 1200px;
+    padding-top: 130px;
+    margin: 0 auto;
+}
+
+.small-container{
+    max-width: 1000px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
 /* flex */
 .d-flex{
     display: flex;
     flex-wrap: nowrap;
-    
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 .justify-center{
     justify-content:center;
 }
@@ -64,36 +95,80 @@ a{
 body{
     font-size: 1.1em;
 }
-
-.button{
-    background-color: var(--color-bg-buttom);
-    color: var(--color-bg-main);
-    padding: 8px;
+.plans{
+    width: 30%;
+    border: 1px solid #666
 }
-
-.container{
-    max-width: 1200px;
-    padding-top: 130px;
-    margin: 0 auto;
+.plans-head{
+    text-align: center;
+    padding:5px;
+    font-size: 0.9em;
+    border-bottom: 1px solid #666;
 }
-
-.small-container{
-    max-width: 1000px;
-    padding-top: 130px;
-    margin: 0 auto;
+.plans-body{
+    margin-top: 30px;
+    padding: 5px 30px;
+    font-size: 0.9em;
 }
-
-.p-relative{
-    position: relative;
+.plans-body span{
+    padding: 7px 0;
 }
-
-.p-absolute{
-    position: absolute;
+h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.plan-cost{
+    font-weight: 600;
+    font-size: 0.9em;
+    display: block;
+}
+.month{
+    color: grey;
+    display: block;
+    margin-top: -10px;
+}
+.indent{
+    text-indent: -10px;
+    margin-left:20px
+}
+main .button{
+    padding: 7px 35px;
+}
+.a-style{
+    text-decoration: underline;
+    padding: 0 0;
+    color: #0000EE;
+}
+.d-block{
+    display: block;
+}
+.plans .d-block{
+    margin: 30px 0
+}
+hr{
+    width: 50px;
+}
+h5{
+    margin-top: 30px;
+    font-size: 1em;
+}
+.plans-body .fa-check{
+    color: rgb(0, 0, 255);
+}
+main .long-btn{
+    padding: 7px 85px;
+}
+.small-container.contact-us{
+    border: 1px solid grey;
+    margin-top: 50px;
+    padding-top: 5px;
 }
 /* header */
 
 header{
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .align-middle{
@@ -154,6 +229,12 @@ img.p-absolute{
 #year-plan{
     margin-left: 40px
 }
+
+/* main */
+h2{
+    font-size: 2.8em;
+}
+
 /* list */
 
 ul{
