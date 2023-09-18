@@ -12,7 +12,7 @@
 <body>
     <header>
         <!-- navbar fixed -->
-        <nav class="d-flex space-between">
+        <nav class="d-flex align-center space-between">
             <div class="left-flex">
                 <span class="logo">
                     <img class="align-middle" src="img/logo-small.png" alt="">
@@ -40,10 +40,10 @@
                             <a href="#" class="button">Inizia la tua prova gratuita</a>
                         </span>
                         <span>Annulla in qualsiasi momento</span>
-                        <span><i class="fa-solid fa-arrow-down"></i></span>
+                        <span><a href="#plans"><i class="fa-solid fa-arrow-down"></a></i></span>
                     </div>
-                    <div class="hero-right p-relative">
-                        <img class="p-absolute" src="img/jumbo.png" alt="">
+                    <div class="hero-right">
+                        <img class="p-relative" src="img/jumbo.png" alt="">
                     </div>
                 </div>
             </div>
@@ -51,9 +51,16 @@
     </header>
     <main>
         <!-- find your plan -->
-        <section></section>
+        <section id="plans" class="container mb-30">
+            <div clas="mb-30">
+                <input type="radio" id="month-plan" name="fatturazione" checked>
+                <label for="month-plan">Fatturazione mensile</label>
+                <input type="radio" id="year-plan" name="fatturazione" checked>
+                <label for="year-plan">Fatturazione annuale</label>
+            </div>
+        </section>
         <!-- operation with dropbox -->
-        <section></section>
+        <section id="partner"></section>
         <!-- square section -->
         <section>
             <!-- 3 square sections -->
@@ -67,47 +74,116 @@
         <section></section>
     </main>
     <footer>
-        <div class="top-footer container">
+        <secion class="container">
             <!-- list footer -->
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+            <div class="top-footer d-flex container d-flex space-between">
+                <div>
+                    <h3>Dropbox</h3>
+                    <ul>
+                        <a href="">
+                            <li>Applicazione desktop</li>
+                        </a>
+                        <a href="">
+                            <li>Perchè Dropbox</li>
+                        </a>
+                        <a href="">
+                            <li>Piani</li>
+                        </a>
+                        <a href="">
+                            <li>Sicurezza</li>
+                        </a>
+                        <a href="">
+                            <li>Funzioni</li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Prodotti</h3>
+                    <ul>
+                        <a href="">
+                            <li>Applicazione desktop</li>
+                        </a>
+                        <a href="">
+                            <li>Perchè Dropbox</li>
+                        </a>
+                        <a href="">
+                            <li>Piani</li>
+                        </a>
+                        <a href="">
+                            <li>Sicurezza</li>
+                        </a>
+                        <a href="">
+                            <li>Funzioni</li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Azienda</h3>
+                    <ul>
+                        <a href="">
+                            <li>Applicazione desktop</li>
+                        </a>
+                        <a href="">
+                            <li>Perchè Dropbox</li>
+                        </a>
+                        <a href="">
+                            <li>Piani</li>
+                        </a>
+                        <a href="">
+                            <li>Sicurezza</li>
+                        </a>
+                        <a href="">
+                            <li>Funzioni</li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Supporto</h3>
+                    <ul>
+                        <a href="">
+                            <li>Applicazione desktop</li>
+                        </a>
+                        <a href="">
+                            <li>Perchè Dropbox</li>
+                        </a>
+                        <a href="">
+                            <li>Piani</li>
+                        </a>
+                        <a href="">
+                            <li>Sicurezza</li>
+                        </a>
+                        <a href="">
+                            <li>Funzioni</li>
+                        </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Community</h3>
+                    <ul>
+                        <a href="">
+                            <li>Applicazione desktop</li>
+                        </a>
+                        <a href="">
+                            <li>Perchè Dropbox</li>
+                        </a>
+                        <a href="">
+                            <li>Piani</li>
+                        </a>
+                        <a href="">
+                            <li>Sicurezza</li>
+                        </a>
+                        <a href="">
+                            <li>Funzioni</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="bottom-footer container"></div>
-        </div>
+            <div class="bottom-footer">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Italiano</span>
+                <i class="fa-solid fa-sort-up p-relative"></i>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
