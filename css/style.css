@@ -341,6 +341,21 @@ img{
 #free-try a{
     margin-bottom: 140px;
 }
+
+/* FAQ section */
+.faq h4{
+}
+.faq i{
+    display: block;
+}
+.faq div{
+    padding: 30px 0px;
+    border-top: 1px solid rgb(175, 175, 175);
+    border-bottom:  1px solid rgb(175, 175, 175);
+}
+#no-border{
+    border: 0;
+}
 /* list */
 
 ul{
@@ -366,6 +381,7 @@ footer{
     background-color: var(--color-bg-footer);
     color: var(--color-bg-main);
     width: 100%;
+    margin-top: 150px;
 }
 
 footer h3{
