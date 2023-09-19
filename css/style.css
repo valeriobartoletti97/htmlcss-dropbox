@@ -79,7 +79,10 @@ html{
     align-items: center;
     align-content: center;
 }
-
+.align-start{
+    align-items: flex-start;
+    align-content: flex-start;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -89,10 +92,6 @@ a{
     color: #000000;
     padding: 0px 10px
 }
-.debug{
-    border: 1px solid red
-}
-
 /* header */
 
 header{
@@ -332,9 +331,15 @@ img{
 #free-try{
     background-color: var(--color-bg-hero);
 }
+#free-try div{
+    padding-top: 100px;
+}
 #free-try h2{
     color: var(--color-box-2);
     width: 60%;
+}
+#free-try a{
+    margin-bottom: 140px;
 }
 /* list */
 
