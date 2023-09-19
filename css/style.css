@@ -12,10 +12,10 @@
 	--color-bg-main: #ffffff;
 	--color-box-8: #ffd830;
 	--color-box-7: #0d2481;
-	--color-box-6: #ff1c1c;
-	--color-box-5: #0093ce;
-	--color-box-4: #b4d0e7;
-	--color-box-3: #d5001f;
+	--color-box-4: #ff1c1c;
+	--color-box-3: #0093ce;
+	--color-box-6: #b4d0e7;
+	--color-box-5: #d5001f;
 	--color-box-2: #61082b;
 	--color-box-1: #a2d39b;
 	--color-bg-buttom: #0061ff;
@@ -257,7 +257,7 @@ img{
     width: 30%;
     padding: 50px 0px
 }
-.button.find-partner{
+.button.bg-white{
     background-color: white;
     color: var(--color-bg-footer);
     border: 1px solid var(--color-bg-footer)
@@ -268,7 +268,7 @@ img{
 .mb-100{
     margin-bottom: 100px;
 }
-/* operations */
+/* operations section*/
 #operations{
     margin-top: 150px;
 }
@@ -279,6 +279,63 @@ img{
     width: 70%;
 }
 
+/* brand section */
+.brand-wrapper{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+.brand{
+    width:50%;
+    height:50%;
+}
+.box-1{
+    background-color: var(--color-box-1);
+}
+.box-2{
+    background-color: var(--color-box-2);
+}
+.box-3{
+    background-color: var(--color-box-3);
+}
+.box-4{
+    background-color: var(--color-box-4);
+}
+.box-5{
+    background-color: var(--color-box-5);
+}
+.box-6{
+    background-color: var(--color-box-6);
+}
+.box-7{
+    background-color: var(--color-box-7);
+}
+.box-8{
+    background-color: var(--color-box-8);
+}
+.brand img{
+    filter: invert(1);
+    width: 50%;
+}
+.design-it-wrapper{
+    background-color: var(--color-box-big);
+    width: 35%;
+    height: calc(100vw / 3);
+    padding: 30px 40px;
+    overflow-y: auto;
+}
+.design-it-logo{
+    width:40%
+}
+.design-it-wrapper hr{
+    width: 85px;
+}
+#free-try{
+    background-color: var(--color-bg-hero);
+}
+#free-try h2{
+    color: var(--color-box-2);
+    width: 60%;
+}
 /* list */
 
 ul{
