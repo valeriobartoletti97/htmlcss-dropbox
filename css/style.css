@@ -251,21 +251,32 @@ img{
     overflow: hidden;
 }
 .img-contact-us img{
-    width: 80%;
+    width: 90%;
 }
 .partner-dropbox{
     width: 30%;
-    padding: 50px 0px;
+    padding: 50px 0px
 }
 .button.find-partner{
     background-color: white;
     color: var(--color-bg-footer);
     border: 1px solid var(--color-bg-footer)
 }
-
+.mt-150{
+    margin-top: 100px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
 /* operations */
 #operations{
-    margin-top: 100px;
+    margin-top: 150px;
+}
+.wrapper-team-title{
+    margin-top: 200px;
+}
+.team-title{
+    width: 70%;
 }
 
 /* list */
@@ -276,6 +287,15 @@ ul{
 
 img.p-relative{
     bottom:-50px
+}
+.card{
+    width: 30%;
+}
+.card-img{
+    width:100%;
+}
+.card-img img{
+    width: 100%;
 }
 
 /* footer */
