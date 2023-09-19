@@ -10,18 +10,17 @@
 	--color-bg-hero: #b8d1e5;
 	--color-bg-footer: #000000;
 	--color-bg-main: #ffffff;
-	--color-box-8: #ffd830;
-	--color-box-7: #0d2481;
-	--color-box-4: #ff1c1c;
-	--color-box-3: #0093ce;
-	--color-box-6: #b4d0e7;
-	--color-box-5: #d5001f;
-	--color-box-2: #61082b;
-	--color-box-1: #a2d39b;
-	--color-bg-buttom: #0061ff;
-	--color-box-big: #f5f5f5;
+	--color-box-8: rgb(255, 216, 48);
+	--color-box-7: rgb(13, 36, 129);
+	--color-box-4: rgb(255, 28, 28);
+	--color-box-3: rgb(0, 147, 206);
+	--color-box-6: rgb(180, 208, 231);
+	--color-box-5: rgb(213, 0, 31);
+	--color-box-2: rgb(97, 8, 43);
+	--color-box-1: rgb(162, 211, 155);
+	--color-bg-buttom: rgb(0, 97, 255);
+	--color-box-big: rgb(245, 245, 245);
 }
-
 html{
     scroll-behavior: smooth;
 }
@@ -286,6 +285,10 @@ img{
 .brand{
     width:50%;
     height:50%;
+    cursor: pointer;
+}
+.brand:hover{
+    border: 15px solid rgba(255, 255, 255, 0.5);
 }
 .box-1{
     background-color: var(--color-box-1);
@@ -361,7 +364,6 @@ img{
 ul{
     list-style: none;
 }
-
 img.p-relative{
     bottom:-50px
 }
@@ -376,18 +378,15 @@ img.p-relative{
 }
 
 /* footer */
-
 footer{
     background-color: var(--color-bg-footer);
     color: var(--color-bg-main);
     width: 100%;
     margin-top: 150px;
 }
-
 footer h3{
     margin-bottom: 30px;
 }
-
 footer a {
     color: var(--color-bg-main);
 }
